@@ -1,0 +1,244 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: #222;
+}
+
+nav {
+    background-color: #222;
+    height: auto;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9999999999;
+}
+
+#head {
+    width: 85%;
+    float: left;
+}
+
+#search {
+    color: #FAFAFA;
+    width: 15%;
+    float: right;
+    text-align: right;
+}
+
+#search a {
+    color: #FAFAFA;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+#search a:hover {
+    background-color: red;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: #FAFAFA;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #E5E5E5;
+    color: #222;
+}
+
+/*#main-img {
+    position: relative;
+}*/
+
+#main-img {
+    position: relative;
+}
+
+#main-img img {
+    width: 100%;
+}
+
+#main-img h3 {
+    color: #FAFAFA;
+    position: absolute;
+    left: 0;
+    bottom: 150px;
+    text-align: center;
+    width: 100%;
+}
+
+#main-img h6 {
+    color: #E5E5E5;
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+#title {
+    padding: 100px 0px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title h1 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#title p {
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 150%;
+    font-size: 17px;
+    column-count: 2;
+    column-gap: 20px;
+    text-align: justify;
+}
+
+#description-images {
+    margin-top: 0;
+}
+
+.description-images {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.description-images h3 {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#tour {
+    margin-top: 50px;
+    background-color: #222;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#tour-boxes {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tour h1 {
+    color: #FAFAFA;
+    text-align: center;
+}
+
+#tour h2 {
+    color: #E5E5E5;
+    text-align: center;
+    font-weight: 100;
+}
+
+.tour-box {
+    width: 30%;
+    float: left;
+    background-color: #222;
+    margin-right: 3%;
+}
+
+.tour-box:last-child {
+    margin-right: 0;
+}
+
+.tour-box img {
+    width: 100%;
+    height: auto;
+}
+
+.tour-box img:hover {
+    opacity: 0.75;
+}
+
+.tour-box h3 {
+    margin: 0;
+
+}
+
+.tour-box h4 {
+    color: gray;
+}
+
+.tour-box button {
+    background-color: #222;
+    color: #FAFAFA;
+    border: none;
+    padding: 5px 12px;
+}
+
+.tour-box button:hover {
+    background-color: #E5E5E5;
+    color: #222;
+}
+
+.boxd {
+    background-color: white;
+    padding: 15px;
+}
+
+
+.clear-fix {
+    clear: both;
+}
+
+@media (max-width: 1199px) {
+    #title p {
+        letter-spacing: inherit;
+        word-spacing: inherit;
+    }
+
+    #tour-boxes,
+    #title {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    #title p {
+        column-count: 1;
+    }
+}
+
+@media (max-width: 767px) {
+    #main-img h3 {
+        font-size: 20px;
+        color: green;
+    }
+
+    #main-img h6 {
+        font-size: 17px;
+        color: green;
+    }
+}
+
+@media (max-width: 575px) {
+
+    #main-img h3,
+    #main-img h6 {
+        display: none;
+    }
+}
+
+@media (min-width:0px) and (max-width:575px) {}
